@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "henry-admin-data-center",
+  "name": "data-center",
   "scripts": {
     "start": "umi dev",
     "build": "umi build",

@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 
 const AdminLayout: FC = (props) => {
-  return <div>{props.children}</div>;
+  return <div className="w-full h-full p-8">{props.children}</div>;
 };
 
 export default AdminLayout;

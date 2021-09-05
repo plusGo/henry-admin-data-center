@@ -3,6 +3,12 @@ export default [
   {
     path: '/',
     component: '@/layouts/AdminLayout',
-    routes: [{ path: 'welcome', component: '@/pages/Welcome' }],
+    routes: [
+      { path: 'welcome', component: '@/pages/Welcome' },
+      {
+        path: 'application',
+        routes: [{ path: 'list', component: '@/pages/Application' }],
+      },
+    ],
   },
 ];
